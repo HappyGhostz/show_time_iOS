@@ -15,6 +15,9 @@
 		27111C3425384B3C00BE4361 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 27111C3225384B3C00BE4361 /* LaunchScreen.storyboard */; };
 		27111C3F25384B3D00BE4361 /* Show_TimeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27111C3E25384B3D00BE4361 /* Show_TimeTests.swift */; };
 		27111C4A25384B3D00BE4361 /* Show_TimeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27111C4925384B3D00BE4361 /* Show_TimeUITests.swift */; };
+		27111FD22539530F00BE4361 /* ImageExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27111FD12539530F00BE4361 /* ImageExtension.swift */; };
+		27111FD72539758400BE4361 /* splash.gif in Resources */ = {isa = PBXBuildFile; fileRef = 27111FD62539758400BE4361 /* splash.gif */; };
+		27111FDE25397C3100BE4361 /* DownTimeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27111FDD25397C3100BE4361 /* DownTimeView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +52,9 @@
 		27111C4525384B3D00BE4361 /* Show TimeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Show TimeUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		27111C4925384B3D00BE4361 /* Show_TimeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Show_TimeUITests.swift; sourceTree = "<group>"; };
 		27111C4B25384B3D00BE4361 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		27111FD12539530F00BE4361 /* ImageExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageExtension.swift; sourceTree = "<group>"; };
+		27111FD62539758400BE4361 /* splash.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = splash.gif; path = ../../../Desktop/splash.gif; sourceTree = "<group>"; };
+		27111FDD25397C3100BE4361 /* DownTimeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownTimeView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +105,9 @@
 		27111C2625384B3900BE4361 /* Show Time */ = {
 			isa = PBXGroup;
 			children = (
+				27111FDC25397BE400BE4361 /* custom_views */,
+				27111FD62539758400BE4361 /* splash.gif */,
+				27111FD02539529600BE4361 /* custom_extension */,
 				27111C2725384B3900BE4361 /* AppDelegate.swift */,
 				27111C2925384B3900BE4361 /* SceneDelegate.swift */,
 				27111C2B25384B3900BE4361 /* ViewController.swift */,
@@ -126,6 +135,22 @@
 				27111C4B25384B3D00BE4361 /* Info.plist */,
 			);
 			path = "Show TimeUITests";
+			sourceTree = "<group>";
+		};
+		27111FD02539529600BE4361 /* custom_extension */ = {
+			isa = PBXGroup;
+			children = (
+				27111FD12539530F00BE4361 /* ImageExtension.swift */,
+			);
+			name = custom_extension;
+			sourceTree = "<group>";
+		};
+		27111FDC25397BE400BE4361 /* custom_views */ = {
+			isa = PBXGroup;
+			children = (
+				27111FDD25397C3100BE4361 /* DownTimeView.swift */,
+			);
+			path = custom_views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -232,6 +257,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				27111C3425384B3C00BE4361 /* LaunchScreen.storyboard in Resources */,
+				27111FD72539758400BE4361 /* splash.gif in Resources */,
 				27111C3125384B3C00BE4361 /* Assets.xcassets in Resources */,
 				27111C2F25384B3900BE4361 /* Main.storyboard in Resources */,
 			);
@@ -258,9 +284,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				27111FD22539530F00BE4361 /* ImageExtension.swift in Sources */,
 				27111C2C25384B3900BE4361 /* ViewController.swift in Sources */,
 				27111C2825384B3900BE4361 /* AppDelegate.swift in Sources */,
 				27111C2A25384B3900BE4361 /* SceneDelegate.swift in Sources */,
+				27111FDE25397C3100BE4361 /* DownTimeView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
